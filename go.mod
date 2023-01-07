@@ -11,7 +11,7 @@ replace github.com/imdario/mergo => github.com/imdario/mergo v0.3.5
 require (
 	cloud.google.com/go/compute/metadata v0.2.3
 	cloud.google.com/go/logging v1.6.1
-	cloud.google.com/go/monitoring v1.9.1
+	cloud.google.com/go/monitoring v1.10.0
 	cloud.google.com/go/security v1.11.0
 	cloud.google.com/go/trace v1.5.0
 	contrib.go.opencensus.io/exporter/prometheus v0.4.2
