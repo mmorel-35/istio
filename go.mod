@@ -82,8 +82,8 @@ require (
 	golang.org/x/sys v0.4.0
 	golang.org/x/time v0.3.0
 	gomodules.xyz/jsonpatch/v3 v3.0.1
-	google.golang.org/api v0.105.0
-	google.golang.org/genproto v0.0.0-20221207170731-23e4bf6bdc37
+	google.golang.org/api v0.106.0
+	google.golang.org/genproto v0.0.0-20221227171554-f9683d7f8bef
 	google.golang.org/grpc v1.51.0
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/square/go-jose.v2 v2.6.0
@@ -157,7 +157,7 @@ require (
 	github.com/google/btree v1.0.1 // indirect
 	github.com/google/gnostic v0.5.7-v3refs // indirect
 	github.com/google/pprof v0.0.0-20221212185716-aee1124e3a93 // indirect
-	github.com/googleapis/enterprise-certificate-proxy v0.2.0 // indirect
+	github.com/googleapis/enterprise-certificate-proxy v0.2.1 // indirect
 	github.com/googleapis/gax-go/v2 v2.7.0 // indirect
 	github.com/grafana/regexp v0.0.0-20221122212121-6b5c0a4cb7fd // indirect
 	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79 // indirect
