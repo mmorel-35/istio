@@ -13,7 +13,7 @@ require (
 	cloud.google.com/go/logging v1.6.1
 	cloud.google.com/go/monitoring v1.9.1
 	cloud.google.com/go/security v1.10.0
-	cloud.google.com/go/trace v1.4.0
+	cloud.google.com/go/trace v1.5.0
 	contrib.go.opencensus.io/exporter/prometheus v0.4.2
 	github.com/AdaLogics/go-fuzz-headers v0.0.0-20221206110420-d395f97c4830
 	github.com/Masterminds/sprig/v3 v3.2.3
