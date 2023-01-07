@@ -10,14 +10,17 @@ replace github.com/imdario/mergo => github.com/imdario/mergo v0.3.5
 
 require (
 	cloud.google.com/go/compute/metadata v0.2.3
+	cloud.google.com/go/logging v1.6.1
 	cloud.google.com/go/monitoring v1.9.1
 	cloud.google.com/go/security v1.10.0
 	cloud.google.com/go/trace v1.4.0
 	contrib.go.opencensus.io/exporter/prometheus v0.4.2
 	github.com/AdaLogics/go-fuzz-headers v0.0.0-20221206110420-d395f97c4830
 	github.com/Masterminds/sprig/v3 v3.2.3
+	github.com/alecholmes/xfccparser v0.1.0
 	github.com/cenkalti/backoff/v4 v4.2.0
 	github.com/census-instrumentation/opencensus-proto v0.4.1
+	github.com/cespare/xxhash/v2 v2.2.0
 	github.com/cheggaaa/pb/v3 v3.1.0
 	github.com/cncf/xds/go v0.0.0-20221128185840-c261a164b73d
 	github.com/containernetworking/cni v1.1.2
@@ -72,6 +75,7 @@ require (
 	go.opentelemetry.io/proto/otlp v0.19.0
 	go.uber.org/atomic v1.10.0
 	go.uber.org/multierr v1.9.0
+	golang.org/x/exp v0.0.0-20221208152030-732eee02a75a
 	golang.org/x/net v0.4.0
 	golang.org/x/oauth2 v0.3.0
 	golang.org/x/sync v0.1.0
@@ -106,29 +110,21 @@ require (
 )
 
 require (
+	cloud.google.com/go v0.107.0 // indirect
 	cloud.google.com/go/compute v1.14.0 // indirect
 	cloud.google.com/go/iam v0.8.0 // indirect
 	cloud.google.com/go/longrunning v0.3.0 // indirect
-	github.com/onsi/ginkgo/v2 v2.6.1 // indirect
-	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
-)
-
-require (
-	cloud.google.com/go v0.107.0 // indirect
-	cloud.google.com/go/logging v1.6.1
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/BurntSushi/toml v1.1.0 // indirect
 	github.com/MakeNowJust/heredoc v1.0.0 // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver/v3 v3.2.0 // indirect
 	github.com/VividCortex/ewma v1.1.1 // indirect
-	github.com/alecholmes/xfccparser v0.1.0
 	github.com/alecthomas/participle v0.4.1 // indirect
 	github.com/antlr/antlr4/runtime/Go/antlr v1.4.10 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
-	github.com/cespare/xxhash/v2 v2.2.0
 	github.com/chai2010/gettext-go v1.0.2 // indirect
 	github.com/cncf/udpa/go v0.0.0-20210930031921-04548b0d99d4 // indirect
 	github.com/containerd/stargz-snapshotter/estargz v0.12.1 // indirect
@@ -200,6 +196,7 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/monochromegane/go-gitignore v0.0.0-20200626010858-205db1a8cc00 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
+	github.com/onsi/ginkgo/v2 v2.6.1 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.0-rc2 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
@@ -230,7 +227,6 @@ require (
 	go.starlark.net v0.0.0-20211013185944-b0039bd2cfe3 // indirect
 	go.uber.org/zap v1.24.0 // indirect
 	golang.org/x/crypto v0.3.0 // indirect
-	golang.org/x/exp v0.0.0-20221208152030-732eee02a75a
 	golang.org/x/mod v0.7.0 // indirect
 	golang.org/x/term v0.3.0 // indirect
 	golang.org/x/text v0.5.0 // indirect
@@ -240,6 +236,7 @@ require (
 	google.golang.org/appengine v1.6.7 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
+	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	k8s.io/component-base v0.26.0 // indirect
 	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2 // indirect
 	sigs.k8s.io/kustomize/api v0.12.1 // indirect
